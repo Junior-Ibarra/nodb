@@ -1,0 +1,99 @@
+body {
+	height: 100vh;
+	background-color: #007cd5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	height: 100px;
+	width: 70vw;
+	background-color: black;
+	border-style: dashed;
+	border-width: 4px;
+	border-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+header > div {
+	height: 100%;
+	width: 80%;
+	color: #007cd5;
+	font-family: cursive;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 50px;
+	animation: infinite 6s linear infinite;
+}
+
+.main {
+	width: 80%;
+	height: 90vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-container {
+	width: 80%;
+	height: 50px;
+	border-radius: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.form-container > form {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 275px;
+}
+
+form > input {
+	width: 60%;
+}
+
+button {
+	color: #007cd5;
+	background-color: black;
+	font-size: 12px;
+	margin: 5px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #007cd5;
+}
+
+.movie {
+	width: 80%;
+	height: 100px;
+
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+	border-radius: 10px;
+	border-style: dashed;
+	border-color: yellow;
+	border-width: 2px;
+	background-color: black;
+	color: #007cd5;
+}
+
+.movie-list {
+	margin-left: 10px;
+}
+
+.complete {
+	text-decoration: line-through;
+}
